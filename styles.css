@@ -1,0 +1,225 @@
+body{
+  margin: 0;
+  position: relative;
+
+
+}
+.parent{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+
+
+.girl{
+  position: absolute;
+  top:100px;
+  width: 400px;
+  height: 400px;
+  bottom: 300px;
+  left: 730px;
+  z-index: 1;
+  overflow: hidden;
+
+
+}
+.des{
+  position: absolute;
+  width: 520px;
+  height: 500px;
+  left: 690px;
+  bottom: 110px;
+
+
+
+
+}
+.quote-text1{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  left: 310px;
+  top: 200px;
+  line-height: 1.5;
+  z-index: 2;
+}
+
+.quote-name{
+  position: absolute;
+  top: 480px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  left: 310px;
+
+}
+#role{
+  position: absolute;
+  top: 482px;
+  left: 430px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: rgb(214, 212, 222);
+  }
+
+  .icon-next{
+    position: absolute;
+    left: 830px;
+    top: 487px;
+    z-index: 3;
+    cursor: pointer;
+
+  }
+
+  .icon-prev{
+    position: absolute;
+    left: 765px;
+    top: 487px;
+    z-index: 3;
+    cursor: pointer;
+
+  }
+
+  .scroll-bar{
+    position: absolute;
+    top: 475px;
+    left: 754px;
+    background-color: purple;
+    width: 100px;
+    height: 40px;
+    border-radius: 50rem;
+    z-index: 2;
+    justify-content: space-between;
+  }
+  .curve{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 30%;
+    height: 20%;
+
+  }
+  .quotes{
+
+    position: absolute;
+    top: 180px;
+    left: 390px;
+    height: 75px;
+
+  }
+
+  @media(max-width:600px){
+
+    body {
+     position: relative;
+     margin: 0;
+
+    }
+    .parent{
+      background-color:white;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+    }
+
+
+
+    .girl{
+        width: 240px;
+        height: 240px;;
+        position: relative;
+
+        top: 4rem;
+        left: 8rem;
+
+        box-shadow: 0 1px 10px  rgb(149, 149, 150);
+    }
+    .scroll-bar{
+        position: absolute;
+        height: 38px;
+        width: 5rem;
+        top: 285px;
+        left: 209px;
+
+        border-radius: 50px;
+        background-color: purple;
+        z-index: 1;
+     }
+
+     .icon-next{
+        cursor: pointer;
+        height: 20px;
+        top: 293px;
+        left: 266px;
+
+    }
+    .icon-prev{
+      cursor: pointer;
+      height: 20px;
+      top: 293px;
+      left: 220px;
+
+    }
+
+    .curve{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 70%;
+      height: 15%;
+      }
+
+      .quote-text1{
+        position: absolute;
+        font-size: 15px;
+        top: 350px;
+        left: 120px;
+        text-align: center;
+      }
+      .quote-name{
+        position: absolute;
+        top: 500px;
+        left: 202px;
+
+      }
+      #role{
+        position: absolute;
+        top: 530px;
+        left: 203px;
+        right: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+      }
+
+     .sub{
+       text-align: left;
+     }
+     .des{
+       z-index: 0;
+       height: 320px;
+       width: 310px;;
+       position: absolute;
+       top: 20px;
+       left: 90px;
+      }
+      .quotes{
+        position: absolute;
+        height: 40px;
+        top: 350px;
+        left: 210px;
+      }
+
+
+}
